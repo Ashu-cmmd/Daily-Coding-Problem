@@ -8,7 +8,7 @@ class ListNode {
     }
 }
 
-public class Solution {
+public class _26_ {
     public ListNode removeKthFromEnd(ListNode head, int k) {
         // Create a dummy node to simplify the case of removing the head node
         ListNode dummy = new ListNode(0);
@@ -43,7 +43,7 @@ public class Solution {
         head.next.next.next.next = new ListNode(5);
 
         // Remove the 2nd last element (k = 2), which should remove '4'
-        Solution solution = new Solution();
+        _26_ solution = new _26_();
         head = solution.removeKthFromEnd(head, 2);
 
         // Print the updated list: 1 -> 2 -> 3 -> 5
