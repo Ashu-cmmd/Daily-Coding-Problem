@@ -1,4 +1,4 @@
-public class EditDistance {
+public class _31_EditDistance {
 
     // Function to calculate the edit distance
     public static int minDistance(String word1, String word2) {
