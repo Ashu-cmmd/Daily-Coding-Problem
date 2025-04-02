@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class CurrencyArbitrage {
+public class _32_CurrencyArbitrage {
     public boolean hasArbitrage(double[][] rates) {
         int n = rates.length;
 
@@ -47,7 +47,7 @@ public class CurrencyArbitrage {
     }
 
     public static void main(String[] args) {
-        CurrencyArbitrage ca = new CurrencyArbitrage();
+        _32_CurrencyArbitrage ca = new _32_CurrencyArbitrage();
         
         // Example of currency exchange rates: 
         // Rates[i][j] = exchange rate from currency i to currency j
