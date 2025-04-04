@@ -1,4 +1,4 @@
-public class PalindromeInsertion {
+public class _34_PalindromeInsertion {
     
     public static String makeSmallestPalindrome(String s) {
         int n = s.length();
