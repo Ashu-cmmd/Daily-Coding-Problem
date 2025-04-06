@@ -8,7 +8,7 @@ class TreeNode {
     }
 }
 
-public class BinarySearchTree {
+public class _36_BinarySearchTree {
 
     // Function to find the second largest node
     public static TreeNode findSecondLargest(TreeNode root) {
