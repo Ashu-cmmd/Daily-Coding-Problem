@@ -2,7 +2,7 @@
 
 // Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
-public class PaintHouses {
+public class _19_PaintHouses {
 
     public static int minCost(int[][] cost) {
         if (cost == null || cost.length == 0 || cost[0].length == 0) {
