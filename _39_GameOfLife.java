@@ -1,11 +1,11 @@
-public class GameOfLife {
+public class _39_GameOfLife {
     private boolean[][] grid;
     private int rows;
     private int cols;
     private int steps;
 
     // Constructor to initialize the grid with the live cells and the number of steps
-    public GameOfLife(boolean[][] initialGrid, int steps) {
+    public _39_GameOfLife(boolean[][] initialGrid, int steps) {
         this.rows = initialGrid.length;
         this.cols = initialGrid[0].length;
         this.grid = new boolean[rows][cols];
@@ -97,7 +97,7 @@ public class GameOfLife {
         int steps = 5;
 
         // Initialize the game
-        GameOfLife game = new GameOfLife(initialGrid, steps);
+        _39_GameOfLife game = new _39_GameOfLife(initialGrid, steps);
         game.runGame();
     }
 }
