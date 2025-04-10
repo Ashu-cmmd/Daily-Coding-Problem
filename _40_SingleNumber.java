@@ -1,4 +1,4 @@
-public class SingleNumber {
+public class _40_SingleNumber {
     public int singleNumber(int[] nums) {
         int ones = 0, twos = 0, threes = 0;
         
@@ -21,7 +21,7 @@ public class SingleNumber {
     }
     
     public static void main(String[] args) {
-        SingleNumber solution = new SingleNumber();
+        _40_SingleNumber solution = new _40_SingleNumber();
         
         int[] nums1 = {6, 1, 3, 3, 3, 6, 6};
         System.out.println(solution.singleNumber(nums1));  // Output: 1
