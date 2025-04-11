@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Itinerary {
+public class _41_Itinerary {
     public List<String> findItinerary(List<List<String>> tickets, String start) {
         // Step 1: Build the graph
         Map<String, PriorityQueue<String>> graph = new HashMap<>();
@@ -39,7 +39,7 @@ public class Itinerary {
     }
 
     public static void main(String[] args) {
-        Itinerary itineraryFinder = new Itinerary();
+        _41_Itinerary itineraryFinder = new _41_Itinerary();
 
         // Test Case 1
         List<List<String>> tickets1 = Arrays.asList(
