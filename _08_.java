@@ -11,7 +11,7 @@ class TreeNode {
     }
 }
 
-public class _8_ {
+public class _08_ {
     private int count = 0;
 
     // Helper function to check if the subtree rooted at node is a unival tree
@@ -65,7 +65,7 @@ public class _8_ {
         root.left.right = new TreeNode(5);
         root.right.right = new TreeNode(5);
 
-        _8_ solution = new _8_();
+        _08_ solution = new _08_();
         int result = solution.countUnivalSubtrees(root);
         System.out.println("Number of unival subtrees: " + result);  // Output should be 5
     }
