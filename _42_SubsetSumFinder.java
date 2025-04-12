@@ -5,7 +5,7 @@
 // For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
 import java.util.*;
 
-public class SubsetSumFinder {
+public class _42_SubsetSumFinder {
 
     public static List<Integer> subsetSum(List<Integer> S, int k) {
         return helper(S, k, 0, new ArrayList<>(), 0);
