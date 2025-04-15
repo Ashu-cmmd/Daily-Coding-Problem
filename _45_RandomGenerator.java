@@ -1,6 +1,6 @@
 // Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
 
-public class RandomGenerator {
+public class _45_RandomGenerator {
 
     // rand5() simulates the random number generator from 1 to 5
     public static int rand5() {
