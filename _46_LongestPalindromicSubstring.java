@@ -1,4 +1,4 @@
-public class LongestPalindromicSubstring {
+public class _46_LongestPalindromicSubstring {
     
     public static String longestPalindrome(String s) {
         if (s == null || s.length() == 0) {
