@@ -9,7 +9,7 @@ class TreeNode {
     }
 }
 
-public class ExpressionTree {
+public class _50_ExpressionTree {
 
     // Main evaluation function
     public static int evaluate(TreeNode root) {
