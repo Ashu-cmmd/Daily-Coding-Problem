@@ -7,7 +7,7 @@
 
 import java.util.*;
 
-public class LRUCache {
+public class _52_LRUCache {
     private final int capacity;
     private final Map<Integer, Node> cache;
     private final DoublyLinkedList order;
@@ -60,7 +60,7 @@ public class LRUCache {
     }
 
     // Constructor to initialize the LRU Cache with a given capacity
-    public LRUCache(int capacity) {
+    public _52_LRUCache(int capacity) {
         this.capacity = capacity;
         this.cache = new HashMap<>();
         this.order = new DoublyLinkedList();
@@ -103,7 +103,7 @@ public class LRUCache {
     
     public static void main(String[] args) {
         // Example usage
-        LRUCache cache = new LRUCache(3);
+        _52_LRUCache cache = new _52_LRUCache(3);
         cache.set(1, 1);  // Cache is {1=1}
         cache.set(2, 2);  // Cache is {1=1, 2=2}
         cache.set(3, 3);  // Cache is {1=1, 2=2, 3=3}
