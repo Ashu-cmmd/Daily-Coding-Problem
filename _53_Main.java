@@ -53,7 +53,7 @@ class QueueUsingTwoStacks {
     }
 }
 
-public class Main {
+public class _53_Main {
     public static void main(String[] args) {
         QueueUsingTwoStacks queue = new QueueUsingTwoStacks();
         
