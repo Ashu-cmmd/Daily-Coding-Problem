@@ -48,7 +48,7 @@ class URLShortener {
     }
 }
 
-public class Solution {
+public class _55_Solution {
     public static void main(String[] args) {
         URLShortener shortener = new URLShortener();
 
