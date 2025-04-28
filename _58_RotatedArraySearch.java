@@ -7,7 +7,7 @@
 // You can assume all the integers in the array are unique.
 
 
-public class RotatedArraySearch {
+public class _58_RotatedArraySearch {
 
     public static Integer search(int[] arr, int target) {
         int left = 0;
