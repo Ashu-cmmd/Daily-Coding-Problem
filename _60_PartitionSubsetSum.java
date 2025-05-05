@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PartitionSubsetSum {
+public class _60_PartitionSubsetSum {
 
     public static boolean canPartition(int[] nums) {
         int sum = 0;
