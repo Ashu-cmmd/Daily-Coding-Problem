@@ -4,7 +4,7 @@
 
 // For example, given 1, you should return 19. Given 2, you should return 28.
 
-public class PerfectNumberFinder {
+public class _70_PerfectNumberFinder {
 
     // Helper method to calculate the sum of digits
     private static int digitSum(int num) {
