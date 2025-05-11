@@ -3,7 +3,7 @@
 
 import java.util.Random;
 
-public class Rand5 {
+public class _71_Rand5 {
 
     // This is a helper function that simulates rand7()
     public static int rand7() {
