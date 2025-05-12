@@ -15,7 +15,7 @@
 
 import java.util.*;
 
-public class GraphPathValue {
+public class _72_GraphPathValue {
     private static class Result {
         int maxValue;
         boolean isInfinite;
