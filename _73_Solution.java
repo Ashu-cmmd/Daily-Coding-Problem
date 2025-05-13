@@ -10,7 +10,7 @@ class ListNode {
     }
 }
 
-public class Solution {
+public class _73_Solution {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode current = head;
