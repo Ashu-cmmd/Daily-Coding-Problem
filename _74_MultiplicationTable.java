@@ -19,7 +19,7 @@
 // And there are 4 12's in the table.
 
 
-public class MultiplicationTable {
+public class _74_MultiplicationTable {
     public static int countOccurrences(int N, int X) {
         int count = 0;
 
