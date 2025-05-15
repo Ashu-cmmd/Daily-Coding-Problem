@@ -4,7 +4,7 @@
 
 import java.util.*;
 
-public class LongestIncreasingSubsequence {
+public class _75_LongestIncreasingSubsequence {
 
     public static int lengthOfLIS(int[] nums) {
         // List to store the current subsequence ends
