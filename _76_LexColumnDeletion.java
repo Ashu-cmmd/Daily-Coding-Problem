@@ -6,7 +6,7 @@
 // daf
 // ghi
 
-public class LexColumnDeletion {
+public class _76_LexColumnDeletion {
     public static int minDeletionSize(String[] strs) {
         int numCols = strs[0].length();
         int numRows = strs.length;
