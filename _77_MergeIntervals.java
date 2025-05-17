@@ -8,7 +8,7 @@
 
 import java.util.*;
 
-public class MergeIntervals {
+public class _77_MergeIntervals {
 
     public static List<int[]> mergeIntervals(List<int[]> intervals) {
         if (intervals == null || intervals.size() == 0) {
