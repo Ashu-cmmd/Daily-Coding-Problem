@@ -1,6 +1,6 @@
 import java.util.PriorityQueue;
 
-public class MergeKSortedLists {
+public class _78_MergeKSortedLists {
 
     // Definition for singly-linked list node
     public static class ListNode {
