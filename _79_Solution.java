@@ -4,7 +4,6 @@
 
 // Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
 
-
 public class _79_Solution {
     public boolean checkPossibility(int[] nums) {
         int count = 0; // To count how many violations occur
@@ -15,7 +14,7 @@ public class _79_Solution {
                     return false;
                 }
                 count++;
-                
+
                 // Check if modifying nums[i - 1] or nums[i] can fix the violation
                 if (i - 2 >= 0 && nums[i] < nums[i - 2]) {
                     // If modifying nums[i - 1] doesn't work, modify nums[i]
@@ -25,16 +24,16 @@ public class _79_Solution {
         }
         return true;
     }
-    
+
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        
+        _79_Solution solution = new _79_Solution();
+
         // Test case 1
-        int[] nums1 = {10, 5, 7};
+        int[] nums1 = { 10, 5, 7 };
         System.out.println(solution.checkPossibility(nums1)); // Output: true
-        
+
         // Test case 2
-        int[] nums2 = {10, 5, 1};
+        int[] nums2 = { 10, 5, 1 };
         System.out.println(solution.checkPossibility(nums2)); // Output: false
     }
 }
