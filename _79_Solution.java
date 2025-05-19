@@ -5,7 +5,7 @@
 // Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
 
 
-public class Solution {
+public class _79_Solution {
     public boolean checkPossibility(int[] nums) {
         int count = 0; // To count how many violations occur
         for (int i = 1; i < nums.length; i++) {
