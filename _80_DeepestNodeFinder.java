@@ -11,7 +11,7 @@ class TreeNode {
     }
 }
 
-public class DeepestNodeFinder {
+public class _80_DeepestNodeFinder {
     public TreeNode findDeepestNode(TreeNode root) {
         if (root == null) {
             return null;
@@ -43,7 +43,7 @@ public class DeepestNodeFinder {
         root.right = new TreeNode('c');
         root.left.left = new TreeNode('d');
 
-        DeepestNodeFinder finder = new DeepestNodeFinder();
+        _80_DeepestNodeFinder finder = new _80_DeepestNodeFinder();
         TreeNode deepestNode = finder.findDeepestNode(root);
         System.out.println("The deepest node is: " + deepestNode.val); // Output: d
     }
