@@ -2,11 +2,11 @@
 
 // For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “
 
-public class _81_ReadNUsingRead7 {
+public class _82_ReadNUsingRead7 {
     private String fileContent;
     private int filePointer;
 
-    public _81_ReadNUsingRead7(String content) {
+    public _82_ReadNUsingRead7(String content) {
         this.fileContent = content;
         this.filePointer = 0;
     }
@@ -57,7 +57,7 @@ public class _81_ReadNUsingRead7 {
     public static void main(String[] args) {
         String content = "Hello world";
 
-        _81_ReadNUsingRead7 reader = new _81_ReadNUsingRead7(content);
+        _82_ReadNUsingRead7 reader = new _82_ReadNUsingRead7(content);
 
         System.out.println("First read7(): \"" + reader.read7() + "\"");  // "Hello w"
         System.out.println("Second read7(): \"" + reader.read7() + "\""); // "orld"
