@@ -2,7 +2,7 @@
 
 // For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
 
-public class ParenthesesValidator {
+public class _86_ParenthesesValidator {
     public static int minRemoveToMakeValid(String s) {
         int openCount = 0;
         int closeCount = 0;
