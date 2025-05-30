@@ -2,13 +2,13 @@
 
 import java.util.*;
 
-public class RandomNumberGenerator {
+public class _90_RandomNumberGenerator {
     private int n;
     private Set<Integer> excludedNumbers;
     private Random random;
 
     // Constructor to initialize the generator
-    public RandomNumberGenerator(int n, List<Integer> l) {
+    public _90_RandomNumberGenerator(int n, List<Integer> l) {
         this.n = n;
         this.excludedNumbers = new HashSet<>(l); // Create a set for quick lookup
         this.random = new Random();
@@ -30,7 +30,7 @@ public class RandomNumberGenerator {
 
     public static void main(String[] args) {
         List<Integer> excludedList = Arrays.asList(1, 2, 3);
-        RandomNumberGenerator rng = new RandomNumberGenerator(10, excludedList);
+        _90_RandomNumberGenerator rng = new _90_RandomNumberGenerator(10, excludedList);
 
         // Generate and print a random number not in the excluded list
         System.out.println("Random number not in the excluded list: " + rng.generate());
