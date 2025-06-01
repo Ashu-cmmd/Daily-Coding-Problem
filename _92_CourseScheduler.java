@@ -8,7 +8,7 @@
 // For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300']
 import java.util.*;
 
-public class CourseScheduler {
+public class _92_CourseScheduler {
     public static List<String> findOrder(Map<String, List<String>> prerequisites) {
         Map<String, List<String>> graph = new HashMap<>();
         Map<String, Integer> inDegree = new HashMap<>();
