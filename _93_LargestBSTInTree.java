@@ -26,7 +26,7 @@ class Result {
     }
 }
 
-public class LargestBSTInTree {
+public class _93_LargestBSTInTree {
     public int largestBSTSubtree(TreeNode root) {
         return largestBSTHelper(root).size;
     }
@@ -60,7 +60,7 @@ public class LargestBSTInTree {
         root.right.left = new TreeNode(6);
         root.right.right = new TreeNode(20);
 
-        LargestBSTInTree solution = new LargestBSTInTree();
+        _93_LargestBSTInTree solution = new _93_LargestBSTInTree();
         int largestBSTSize = solution.largestBSTSubtree(root);
         System.out.println("Size of the largest BST subtree: " + largestBSTSize);
     }
