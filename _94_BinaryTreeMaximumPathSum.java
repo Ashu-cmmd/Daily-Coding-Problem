@@ -11,7 +11,7 @@ class TreeNode {
     }
 }
 
-public class BinaryTreeMaximumPathSum {
+public class _94_BinaryTreeMaximumPathSum {
     private int maxPathSum = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
@@ -43,7 +43,7 @@ public class BinaryTreeMaximumPathSum {
         root.right.left = new TreeNode(15);
         root.right.right = new TreeNode(7);
 
-        BinaryTreeMaximumPathSum solution = new BinaryTreeMaximumPathSum();
+        _94_BinaryTreeMaximumPathSum solution = new _94_BinaryTreeMaximumPathSum();
         System.out.println("Maximum Path Sum: " + solution.maxPathSum(root)); // Output: 42
     }
 }
