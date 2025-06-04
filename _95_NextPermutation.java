@@ -6,7 +6,7 @@
 
 import java.util.Arrays;
 
-public class NextPermutation {
+public class _95_NextPermutation {
     public static void nextPermutation(int[] digits) {
         int n = digits.length;
         int i = n - 2;
