@@ -7,7 +7,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Permutations {
+public class _96_Permutations {
     public static void main(String[] args) {
         int[] digits = {1, 2, 3};
         List<List<Integer>> result = permute(digits);
