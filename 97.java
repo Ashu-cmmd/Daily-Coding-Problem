@@ -24,11 +24,11 @@
 import java.util.HashMap;
 import java.util.TreeMap;
 
-class TimeMap {
+class _97_TimeMap {
     // A map where each key maps to a TreeMap of time-value pairs
     private HashMap<Integer, TreeMap<Integer, String>> map;
 
-    public TimeMap() {
+    public _97_TimeMap() {
         map = new HashMap<>();
     }
 
@@ -58,7 +58,7 @@ class TimeMap {
     }
 
     public static void main(String[] args) {
-        TimeMap d = new TimeMap();
+        _97_TimeMap d = new _97_TimeMap();
         d.set(1, "1", 0); // set key 1 to value "1" at time 0
         d.set(1, "2", 2); // set key 1 to value "2" at time 2
         System.out.println(d.get(1, 1)); // get key 1 at time 1 should be "1"
