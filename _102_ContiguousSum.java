@@ -7,7 +7,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ContiguousSum {
+public class _102_ContiguousSum {
     public static List<Integer> findContiguousSum(int[] nums, int K) {
         List<Integer> result = new ArrayList<>();
         int start = 0, sum = 0;
