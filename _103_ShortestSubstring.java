@@ -9,7 +9,7 @@
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class ShortestSubstring {
+public class _103_ShortestSubstring {
     public static String shortestSubstring(String s, HashSet<Character> chars) {
         int left = 0, right = 0;
         int minLength = Integer.MAX_VALUE;
