@@ -6,25 +6,25 @@
 
 import java.util.Stack;
 
-class SinglyNode {
+class _104_SinglyNode {
     int data;
-    SinglyNode next;
+    _104_SinglyNode next;
 
-    SinglyNode(int data) {
+    _104_SinglyNode(int data) {
         this.data = data;
         this.next = null;
     }
 }
 
 class SinglyLinkedList {
-    SinglyNode head;
+    _104_SinglyNode head;
 
     // Method to check if the list is a palindrome
     public boolean isPalindrome() {
         if (head == null) return true; // An empty list is a palindrome
 
         Stack<Integer> stack = new Stack<>();
-        SinglyNode current = head;
+        _104_SinglyNode current = head;
 
         // Push the first half of the list onto the stack
         while (current != null) {
