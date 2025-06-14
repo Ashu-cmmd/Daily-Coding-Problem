@@ -7,13 +7,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-public class Debouncer {
+public class _105_Debouncer {
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
     private Runnable task;
     private final long delay;
     private long lastExecutionTime;
 
-    public Debouncer(long delay) {
+    public _105_Debouncer(long delay) {
         this.delay = delay;
     }
 
@@ -40,7 +40,7 @@ public class Debouncer {
     }
 
     public static void main(String[] args) {
-        Debouncer debouncer = new Debouncer(1000); // 1000 milliseconds debounce time
+        _105_Debouncer debouncer = new _105_Debouncer(1000); // 1000 milliseconds debounce time
 
         Runnable myFunction = () -> System.out.println("Function executed at: " + System.currentTimeMillis());
 
