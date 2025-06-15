@@ -4,7 +4,7 @@
 
 // For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
 
-public class JumpGame {
+public class _106_JumpGame {
     public static boolean canJump(int[] nums) {
         int maxReach = 0; // The farthest index we can reach
         for (int i = 0; i < nums.length; i++) {
