@@ -25,7 +25,7 @@ class TreeNode {
     }
 }
 
-public class BinaryTreeLevelOrder {
+public class _107_BinaryTreeLevelOrder {
 
     TreeNode root;  // Root of the binary tree
 
@@ -60,7 +60,7 @@ public class BinaryTreeLevelOrder {
 
     // Main method to test the binary tree and level order traversal
     public static void main(String[] args) {
-        BinaryTreeLevelOrder tree = new BinaryTreeLevelOrder();
+        _107_BinaryTreeLevelOrder tree = new _107_BinaryTreeLevelOrder();
 
         // Manually creating a sample binary tree:
         //          1
