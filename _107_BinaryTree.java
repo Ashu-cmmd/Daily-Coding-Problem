@@ -23,7 +23,7 @@ class TreeNode {
     }
 }
 
-public class BinaryTree {
+public class _107_BinaryTree {
 
     TreeNode root;
 
@@ -52,7 +52,7 @@ public class BinaryTree {
     }
 
     public static void main(String[] args) {
-        BinaryTree tree = new BinaryTree();
+        _107_BinaryTree tree = new _107_BinaryTree();
         tree.root = new TreeNode(1);
         tree.root.left = new TreeNode(2);
         tree.root.right = new TreeNode(3);
