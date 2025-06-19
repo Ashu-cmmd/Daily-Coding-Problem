@@ -14,7 +14,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class RootToLeafPaths {
+public class _110_RootToLeafPaths {
     // Definition for a binary tree node.
     static class TreeNode {
         int val;
