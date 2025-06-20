@@ -6,7 +6,7 @@
 
 import java.util.*;
 
-public class AnagramIndices {
+public class _111_AnagramIndices {
     public static List<Integer> findAnagramIndices(String s, String w) {
         List<Integer> result = new ArrayList<>();
         if (s.length() < w.length()) return result;
