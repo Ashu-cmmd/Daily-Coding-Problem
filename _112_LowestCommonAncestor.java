@@ -18,7 +18,7 @@ class TreeNode {
     }
 }
 
-public class LowestCommonAncestor {
+public class _112_LowestCommonAncestor {
     // Returns the lowest common ancestor of nodes p and q
     public TreeNode lowestCommonAncestor(TreeNode p, TreeNode q) {
         Set<TreeNode> ancestors = new HashSet<>();
@@ -73,7 +73,7 @@ public class LowestCommonAncestor {
         root.right.right.parent = root.right;
 
         // Test cases:
-        LowestCommonAncestor lcaFinder = new LowestCommonAncestor();
+        _112_LowestCommonAncestor lcaFinder = new _112_LowestCommonAncestor();
 
         // Case 1: LCA of 5 (Node with val=5) and 1 (Node with val=1)
         TreeNode res1 = lcaFinder.lowestCommonAncestor(root.left, root.right);
